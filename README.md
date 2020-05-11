@@ -1,0 +1,2 @@
+# modiscloud
+Package for processing downloaded MODIS Cloud Product HDF files and derived files. Specifically, MOD35_L2 cloud product files, and the associated MOD03 geolocation files (for MODIS-TERRA); and MYD35_L2 cloud product files, and the associated MYD03 geolocation files (for MODIS-AQUA). The package will be most effective if the user installs MRTSwath (MODIS Reprojection Tool for swath products; https://lpdaac.usgs.gov/tools/modis_reprojection_tool_swath), and adds the directory with the MRTSwath executable to the default R PATH by editing ~/.Rprofile.
